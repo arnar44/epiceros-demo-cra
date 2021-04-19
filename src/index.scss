@@ -1,0 +1,21 @@
+@import './StyleConfig.scss';
+
+html {
+  box-sizing: border-box;
+  font-family: $font-main;
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+title {
+  display: none;
+}

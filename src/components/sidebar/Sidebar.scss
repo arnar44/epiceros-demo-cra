@@ -1,0 +1,22 @@
+@import '../../StyleConfig.scss';
+
+.sidebar {
+  height: 100%;
+  padding: 2rem 4rem;
+
+  color: $color-white;
+  background-color: $color-blue;
+  background-image: url($background-img-url);
+}
+
+.sidebar-h1 {
+  display: flex;
+  margin: 0.67em 0;
+  font-size: 3rem;
+  flex-direction: column;
+}
+
+.team-list {
+  padding-left: 1rem;
+  line-height: 1.5;
+}

@@ -1,0 +1,47 @@
+@import '../../StyleConfig.scss';
+
+.welcome {
+  max-width: 32rem;
+  padding-left: 4rem;
+}
+
+.welcome-h2 {
+  margin-top: 0;
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+  color: $color-navy;
+}
+
+.welcome-h3 {
+  font-size: 1.25rem;
+  color: $color-navy;
+}
+
+.welcome-p {
+  max-width: 30em;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: $color-text;
+}
+
+.welcome-button {
+  padding: 0.5rem 2rem;
+  margin: 1rem 0 0;
+
+  font-size: 100%;
+  line-height: 1.15;
+  color: $color-white;
+  cursor: pointer;
+  background-color: $color-blue;
+
+  border-style: 0;
+  border-width: 0;
+  border-radius: 0.25rem;
+
+  transition: transform 0.25s ease-in-out;
+}
+
+.welcome-button:hover {
+  transition: transform 0.25s ease-in-out;
+  transform: scale(1.05);
+}
